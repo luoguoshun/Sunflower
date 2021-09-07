@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OHEXML</name>
+    </assembly>
+    <members>
+        <member name="M:OHEXML.Controllers.Base.BaseController.ApiContext">
+            <summary>
+            获取Api上下文
+            </summary>
+        </member>
+        <member name="M:OHEXML.Controllers.Base.BaseController.JsonResult``1(System.Boolean,System.String,``0)">
+            <summary>
+            定义结果未知的返回值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="success"></param>
+            <param name="message"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.Base.BaseController.JsonSuccess(System.String,System.Object)">
+            <summary>
+            定义成功的返回值H
+            </summary>
+            <param name="message"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.Base.BaseController.JsonFailt(System.String)">
+            <summary>
+            定义失败的返回值
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="P:OHEXML.Controllers.SystemModule.AccountController.IdentityServerAddress">
+            <summary>
+            获取到文档地址
+            </summary>
+        </member>
+        <member name="M:OHEXML.Controllers.RegisterController.UserRegister(OHEXML.Contracts.UserModule.UserDTO)">
+            <summary>
+            注册
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.TestController.GetListAsync">
+            <summary>
+            获取数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.TestController.AddUserInfoAsync">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.TestController.RemoveUserInfoAsync">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.TestController.UpdateUserInfoAsync">
+            <summary>
+            修改用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Controllers.UserModule.UserController.UserReset(OHEXML.Contracts.UserModule.ResetPasswordDTO)">
+            <summary>
+            重置密码
+            </summary>
+            <param name="DTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.InsertReport.Controllers.CreatePDFController.CreateCompletePDF(OHEXML.Contracts.HealthReportModule.CreatePdfDTO)">
+            <summary>
+            简洁版Word报告
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.InsertReport.Controllers.CreatePDFController.CreateCompletePDF(OHEXML.Contracts.HealthReportModule.Test)">
+            <summary>
+            完整版Word报告
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OHEXML.Filter.ExceptionsFilter.GlobalExceptionMiddleware">
+            <summary>
+            全局异常拦截器 GlobalExceptionsFilter无法拦截的在此拦截
+            </summary>
+        </member>
+        <member name="T:OHEXML.Filter.ExceptionsFilter.GlobalExceptionsFilter">
+            <summary>
+            群居异常出路过滤器(只能管到Controller 之外的异常无法捕获)
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.PolicyHelper.PolicyHandler">
+            <summary>
+            自定义权限控制类(通过继承 AuthorizationHandler 来实现我们的授权逻辑)
+            </summary>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.BackgroundTaskQueue.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="capacity">容量</param>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})">
+            <summary>
+            后台任务工作项
+            </summary>
+            <param name="workItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.BackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)">
+            <summary>
+            异步出列
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})">
+            <summary>
+            后台任务工作项异步，返回异步操作的等待结果 
+            </summary>
+            <param name="workItem">泛型委托，传入参数为CancellationToken，返回参数为ValueTask的方法</param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)">
+            <summary>
+            异步出列
+            </summary>
+            <param name="cancellationToken">取消令牌</param>
+            <returns></returns>
+        </member>
+        <member name="T:OHEXML.Infrastructure.HostedServices.QueuedHostedService.MonitorLoop">
+            <summary>
+            监视器回路
+            </summary>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.MonitorLoop.StartMonitorLoop">
+            <summary>
+            开启监视器异步循环
+            </summary>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.MonitorLoop.MonitorAsync">
+            <summary>
+            监视器异步
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.MonitorLoop.BuildWorkItem1(System.Threading.CancellationToken)">
+            <summary>
+            建立工作项1
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.MonitorLoop.BuildWorkItem2(System.Threading.CancellationToken)">
+            <summary>
+            建立工作项2
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.Employee1`1.BuyBook``1(``0,System.Func{``0,System.String})">
+            <summary>
+            委托人帮我T本书 Func/<T_string/>是买书的动作，传入参数T,返回参数String
+            </summary>
+            <param name="num">数据类型由决定 这里指数量</param>
+            <param name="buy">传入参数为int,返回参数为string的泛型委托</param>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.QueuedServiceCenter.BackgroundProcessing(System.Threading.CancellationToken)">
+             <summary>
+            返回等待的任务 取消排队并执行队列中的后台任
+             </summary>
+             <param name="stoppingToken">取消令牌</param>
+             <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.HostedServices.QueuedHostedService.QueuedServiceCenter.StopAsync(System.Threading.CancellationToken)">
+            <summary>
+            当应用程序主机正在执行正常关机时触发
+            </summary>
+            <param name="stoppingToken">取消令牌：指示关闭进程不再正常</param>
+            <returns></returns>
+        </member>
+        <member name="P:OHEXML.Infrastructure.IdentityServer4.Config.ApiSources">
+            <summary>
+            资源集合(定义的每一个资源可理解为一个程序)
+            </summary>
+        </member>
+        <member name="P:OHEXML.Infrastructure.IdentityServer4.Config.Clients">
+            <summary>
+            客服端集合(用于访问API资源的群体)
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.IdentityServer4.ResourceOwnerPasswordValidator">
+            <summary>
+            继承IResourceOwnerPassword验证器来实现自己的验证规则
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.IdentityServer4.User">
+            <summary>
+            存储在用户信息实体
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.IdentityServer4.ClientUserHandler">
+            <summary>
+            获取到用户信息
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.IdentityServer4.AdminUserHandler">
+            <summary>
+            获取到管理员信息
+            </summary>
+        </member>
+        <member name="T:OHEXML.Infrastructure.Models.MyApiResult">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:OHEXML.Infrastructure.Models.MyApiResult.Success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:OHEXML.Infrastructure.Models.MyApiResult.Message">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:OHEXML.Infrastructure.Models.MyApiResult.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="M:OHEXML.Infrastructure.Test.Account.Debit(System.Decimal)">
+            <summary>
+            借记
+            </summary>
+            <param name="amount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.Test.Account.Credit(System.Decimal)">
+            <summary>
+            信用卡
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="M:OHEXML.Infrastructure.Test.Account.GetBalance">
+            <summary>
+            获取余额
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.Infrastructure.Test.AccountTest.Update(OHEXML.Infrastructure.Test.Account)">
+            <summary>
+            更新余额
+            </summary>
+            <param name="account"></param>
+        </member>
+        <member name="M:OHEXML.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            自定义容器服务注册
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:OHEXML.CustomExtensionsMethods">
+            <summary>
+            自定义拓展方法类
+            </summary>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddEFCore(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            EFCore服务
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddAccessTokenAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            自定义AccessToken验证规则
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddTokenAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            自定义Token验证规则
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddCustomSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddCusomException(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            异常处理
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddCustomAddCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            跨域服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddCustomSingleR(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            SingleR服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddCustomBackgroundTask(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            后台托管服务
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddHangfireService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Hangfire任务调度服务
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OHEXML.CustomExtensionsMethods.AddIdentityservice(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            IdentityServer服务
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
