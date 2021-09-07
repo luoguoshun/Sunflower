@@ -45,9 +45,7 @@ namespace OHEXML.Infrastructure.HostedServices.ScopedHostedService
         {
             try
             {
-                List<MessageInfo> data = await _dbContext.Set<MessageInfo>().Include(x => x.log)
-                                                                            .AsNoTracking()
-                                                                            .ToListAsync();
+                List<MessageInfo> data = await _dbContext.Set<MessageInfo>().ToListAsync();
                 string result = JsonConvert.SerializeObject(data);
                 if (string.IsNullOrEmpty(result))
                 {

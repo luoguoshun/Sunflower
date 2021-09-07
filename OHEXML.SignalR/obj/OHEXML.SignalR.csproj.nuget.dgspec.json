@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {}
+    "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj": {
+    "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj",
+        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj",
         "projectName": "OHEXML.Common",
-        "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj",
+        "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj",
         "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\obj\\",
+        "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {
+    "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
+        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
         "projectName": "OHEXML.SignalR",
-        "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
+        "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
         "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\obj\\",
+        "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,8 +114,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
-                "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
+              "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
+                "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
+    "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
         "projectName": "OHEXML.Contracts",
-        "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
+        "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
         "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\obj\\",
+        "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -186,8 +186,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj": {
-                "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj"
+              "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj": {
+                "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj"
               }
             }
           }

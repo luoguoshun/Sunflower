@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "chGBrDwg9c7UK5XVg2lg0oyNoJmfQALPoo2g9HSHpF7jZANeBPOTu3GGTNBM5138NN14U7lS0VJLVUSeQswBsw==",
+  "dgSpecHash": "2y90L2l6S1lUODdJY2XQbsbvl96JVgE/cq7jcQoJaC4yEdBAFwFE9IoXtgPF/ijGFlf+C19zHNelSy//SaTaGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\罗国顺\\.nuget\\packages\\awssdk.core\\3.5.3.6\\awssdk.core.3.5.3.6.nupkg.sha512",
     "C:\\Users\\罗国顺\\.nuget\\packages\\documentformat.openxml\\2.12.3\\documentformat.openxml.2.12.3.nupkg.sha512",

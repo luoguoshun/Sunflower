@@ -22,9 +22,9 @@ namespace OHEXML.Entity.Context
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder
-            //  .LoadEntityConfiguration<OHEsystemContext>()
-            //  .AddEntityTypes<BaseEntity>();
+            modelBuilder
+              .LoadEntityConfiguration<OHEsystemContext>()
+              .AddEntityTypes<BaseEntity>();
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("OHEXML.Entity"));
         }
     }

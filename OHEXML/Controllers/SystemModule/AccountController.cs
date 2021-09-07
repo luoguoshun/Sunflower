@@ -39,7 +39,7 @@ namespace OHEXML.Controllers.SystemModule
                 ClientId = "Sunflower",
                 ClientSecret = "secret",
                 Scope = Scope,
-                UserName = user.UserID,
+                UserName = user.Account,
                 Password = user.Password
             });
             if (tokenResponse.IsError)
@@ -63,7 +63,7 @@ namespace OHEXML.Controllers.SystemModule
                 ClientId = "Sunflower",
                 ClientSecret = "secret",
                 Scope = AppTypes.Doctor.ToString().ToLower(),
-                UserName = user.UserID,
+                UserName = user.Account,
                 Password = user.Password
             });
             if (tokenResponse.IsError)

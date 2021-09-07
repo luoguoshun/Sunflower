@@ -39,7 +39,7 @@ namespace OHEXML.Controllers
         {
             UserDTO user = new UserDTO()
             {
-                UserID = "adminG",
+                Account = "adminG",
                 Name = "Lusa",
                 Password = "123"
             };
@@ -72,7 +72,7 @@ namespace OHEXML.Controllers
         {
             UserDTO Dto = new UserDTO()
             {
-                UserID = "admin123456",
+                Account = "admin123456",
                 Name = "HAHA",
                 Password = "123"
             };

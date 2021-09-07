@@ -9048,11 +9048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Repository\\OHEXML.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Repository\\OHEXML.Repository.csproj",
       "projectName": "OHEXML.Repository",
-      "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Repository\\OHEXML.Repository.csproj",
+      "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Repository\\OHEXML.Repository.csproj",
       "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Repository\\obj\\",
+      "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9071,14 +9071,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Entity\\OHEXML.Entity.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Entity\\OHEXML.Entity.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Entity\\OHEXML.Entity.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Entity\\OHEXML.Entity.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
             }
           }
         }

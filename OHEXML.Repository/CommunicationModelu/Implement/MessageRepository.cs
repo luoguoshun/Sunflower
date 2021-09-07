@@ -22,7 +22,6 @@ namespace OHEXML.Repository.CommunicationModelu.Implement
         public async Task<IEnumerable<MessageInfo>> GetMessagesAsync(string senderId, string receiverId, string time)
         {
             List<MessageInfo> data = await _dbContext.Set<MessageInfo>()
-                .Include(x => x.MessageTypeId)
                 .AsNoTracking()
                 .ToListAsync();
             return data;

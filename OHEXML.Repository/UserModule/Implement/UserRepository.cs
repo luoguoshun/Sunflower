@@ -50,7 +50,7 @@ namespace OHEXML.Repository.UserModule.Implement
 
             List<UserDTO> result = userInfos.Select(x => new UserDTO
             {
-                UserID = x.UserID,
+                Account = x.UserID,
                 Name = x.Name,
             }).ToList();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQlMvigSWlbVbOmvqvJWy6aiMz1GALvzjcV7YXsry4aEuY0VD6z5Z5+zqVOeNMcPveqOKXRmhae/hfSitvQgCw==",
+  "dgSpecHash": "q03pIIfOiJK8HXekVlszAxJuSy6+JX6I/RLjfL4TXYp9JtevGRkd7ddBgeRF0kC8I470GM53INJGGf0BdX+hhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
+  "projectFilePath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\罗国顺\\.nuget\\packages\\awssdk.core\\3.5.3.6\\awssdk.core.3.5.3.6.nupkg.sha512",
     "C:\\Users\\罗国顺\\.nuget\\packages\\documentformat.openxml\\2.12.3\\documentformat.openxml.2.12.3.nupkg.sha512",

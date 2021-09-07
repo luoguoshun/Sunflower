@@ -22,3 +22,15 @@ C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.TransmissionModel\obj\Debug\netcorea
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.csproj.CopyComplete
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.dll
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.pdb
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\bin\Debug\netcoreapp3.1\OHEXML.Contracts.deps.json
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\bin\Debug\netcoreapp3.1\OHEXML.Contracts.dll
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\bin\Debug\netcoreapp3.1\OHEXML.Contracts.pdb
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\bin\Debug\netcoreapp3.1\OHEXML.Common.dll
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\bin\Debug\netcoreapp3.1\OHEXML.Common.pdb
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.csprojAssemblyReference.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.AssemblyInfoInputs.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.AssemblyInfo.cs
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.csproj.CopyComplete
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.dll
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.TransmissionModel\obj\Debug\netcoreapp3.1\OHEXML.Contracts.pdb

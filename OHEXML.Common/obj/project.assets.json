@@ -3097,11 +3097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj",
+      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj",
       "projectName": "OHEXML.Common",
-      "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj",
+      "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj",
       "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\obj\\",
+      "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -40,3 +40,12 @@ C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXM
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.csproj.CoreCompileInputs.cache
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.dll
 C:\Users\罗国顺\Desktop\OHEXMLApi\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.pdb
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\bin\Debug\netcoreapp3.1\OHEXML.Common.deps.json
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\bin\Debug\netcoreapp3.1\OHEXML.Common.dll
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\bin\Debug\netcoreapp3.1\OHEXML.Common.pdb
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.csprojAssemblyReference.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.AssemblyInfoInputs.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.AssemblyInfo.cs
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.csproj.CoreCompileInputs.cache
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.dll
+C:\Users\罗国顺\Desktop\MyAPI\OHEXML.Common\obj\Debug\netcoreapp3.1\OHEXML.Common.pdb

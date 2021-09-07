@@ -9906,11 +9906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Server\\OHEXML.Server.csproj",
+      "projectUniqueName": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Server\\OHEXML.Server.csproj",
       "projectName": "OHEXML.Server",
-      "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Server\\OHEXML.Server.csproj",
+      "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Server\\OHEXML.Server.csproj",
       "packagesPath": "C:\\Users\\罗国顺\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Server\\obj\\",
+      "outputPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9929,20 +9929,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\HealthReport\\HealthReport.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\HealthReport\\HealthReport.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\HealthReport\\HealthReport.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\HealthReport\\HealthReport.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Common\\OHEXML.Common.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Common\\OHEXML.Common.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Repository\\OHEXML.Repository.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.Repository\\OHEXML.Repository.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Repository\\OHEXML.Repository.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.Repository\\OHEXML.Repository.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.SignalR\\OHEXML.SignalR.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.SignalR\\OHEXML.SignalR.csproj"
             },
-            "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
-              "projectPath": "C:\\Users\\罗国顺\\Desktop\\OHEXMLApi\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
+            "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj": {
+              "projectPath": "C:\\Users\\罗国顺\\Desktop\\MyAPI\\OHEXML.TransmissionModel\\OHEXML.Contracts.csproj"
             }
           }
         }

@@ -41,14 +41,14 @@ namespace OHEXML.Server.UserModule
         {
             foreach (var item in userDTO)
             {
-                UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == item.UserID);
+                UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == item.Account);
                 if (!data.Equals(null))
                     continue;
                 else
                 {
                     UserInfo info = new UserInfo
                     {
-                        UserID = item.UserID,
+                        UserID = item.Account,
                         Name = item.Name,
                         PassWord = item.Password
                     };
@@ -64,7 +64,7 @@ namespace OHEXML.Server.UserModule
         /// <returns></returns>
         public async Task<(bool, string)> AddUserInfoAsync(UserDTO userDTO)
         {
-            UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == userDTO.UserID);
+            UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == userDTO.Account);
             if (data != null)
             {
                 return (false, "用户已存在!");
@@ -77,7 +77,7 @@ namespace OHEXML.Server.UserModule
             {
                 UserInfo info = new UserInfo
                 {
-                    UserID = userDTO.UserID,
+                    UserID = userDTO.Account,
                     Name = userDTO.Name,
                     PassWord = userDTO.Password
                 };
@@ -123,7 +123,7 @@ namespace OHEXML.Server.UserModule
         /// <returns></returns>
         public async Task<(bool, string)> UpdateUserInfoAsync(UserDTO userDTO)
         {
-            UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == userDTO.UserID);
+            UserInfo data = await _userRepository.GetEntityAsync(x => x.UserID == userDTO.Account);
 
             if (data == null)
             {
@@ -131,7 +131,7 @@ namespace OHEXML.Server.UserModule
             }
             else
             {
-                data.UserID = userDTO.UserID;
+                data.UserID = userDTO.Account;
                 data.Name = userDTO.Name;
                 _userRepository.UpdateEntity(data);
                 return await _userRepository.SaveChangeAsync() ? (true, "修改成功!") : (false, "修改失败!");

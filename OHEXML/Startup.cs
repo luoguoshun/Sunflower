@@ -429,7 +429,7 @@ namespace OHEXML
             #endregion
 
             #region ×÷ÓÃÓò
-            services.AddHostedService<ScopedServiceCenter>();
+            //services.AddHostedService<ScopedServiceCenter>();
             #endregion
             return services;
         }
