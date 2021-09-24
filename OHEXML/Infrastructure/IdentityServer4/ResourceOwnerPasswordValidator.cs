@@ -41,18 +41,18 @@ namespace OHEXML.Infrastructure.IdentityServer4
                         user = await new AdminUserHandler(_adminRepository).GetUserAsync(context.UserName, context.Password);
                         break;
                 }
-                    if (!(user is null))
-                    {
-                        var claims = new List<Claim>
+                if (user != null)
+                {
+                    var claims = new List<Claim>
                         {
                             new Claim(JwtClaimTypes.Id, user.Id),
                             new Claim(JwtClaimTypes.Name, user.Name),
                         };
-                        //claims.AddRange(user.Roles.Select(r => new Claim(JwtClaimTypes.Role, r)));
-                        context.Result = new GrantValidationResult(context.UserName, AuthenticationMethods.Password, claims);
-                    }
+                    //claims.AddRange(user.Roles.Select(r => new Claim(JwtClaimTypes.Role, r)));
+                    context.Result = new GrantValidationResult(context.UserName, AuthenticationMethods.Password, claims);
+                }
             }
-         }
+        }
     }
 
     /// <summary>
@@ -96,7 +96,7 @@ namespace OHEXML.Infrastructure.IdentityServer4
     /// <summary>
     /// 获取到管理员信息
     /// </summary>
-    internal class AdminUserHandler 
+    internal class AdminUserHandler
     {
         private readonly IAdminRepository _adminRepository;
         public AdminUserHandler(IAdminRepository adminRepository)
